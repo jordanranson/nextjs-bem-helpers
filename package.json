@@ -1,6 +1,6 @@
 {
   "name": "@twocatmoon/nextjs-bem-helpers",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Tools for managing BEM blocks, elements, and modifiers for NextJS CSS modules.",
   "main": "dist/index.js",
   "scripts": {
