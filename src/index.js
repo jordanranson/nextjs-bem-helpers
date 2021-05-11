@@ -135,7 +135,7 @@ export function useComponentClasses (root, styles = {}) {
       const [before, after, main, state] = rerouteClassArguments(Array.from(arguments));
       return [...new Set([
         concatBemNamespaces(root, before, styles),
-        styles[`${root}__${main}`] || main,
+        styles[`${root}__${main}`] || '',
         `${root}__${main}`,
         concatBemNamespaces(root, after, styles),
         concatBemState(root, main, state, styles)
